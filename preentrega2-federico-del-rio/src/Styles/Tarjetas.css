@@ -1,0 +1,83 @@
+.ContenedorT {
+  display: grid;
+  grid-template-columns: auto;
+  column-gap: 50;
+  font-size: 20px;
+  margin: 80px 150px;
+  font-family: 'Young Serif', sans-serif;
+  justify-content: space-evenly;
+}
+
+.Grid{
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  background: #aaaaaa;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 5px;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+}
+
+.BoxImg {
+  border: 1px solid #361d005d;
+  border-radius: 10px 10px 0px 0px;
+  background: #fc842e;
+  padding: 30px 40px 10px 40px;
+}
+
+.BotonD {
+  background: #fc842e;
+  border-radius: 10px;
+  padding: 0px 5px 0px 5px;
+
+}
+
+
+button {
+  font-family: 'Young Serif', sans-serif;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 15px;
+  padding: 0px 30px;
+
+}
+
+button:active {
+  color: rgb(221, 54, 54);
+}
+
+
+.Score {
+  display: flex;
+  justify-content: center;
+  background: #fc842e;
+  border-radius: 10px;
+  padding: 0px 5px 0px 5px;
+
+}
+
+.Stock {
+  font-size: 14px;
+  font-family: 'Young Serif', sans-serif;
+}
+
+.Dtext {
+  margin-top: 25px;
+  font-family: 'Young Serif', sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.Descri{
+  inline-size: 500px;
+  overflow-wrap: break-word;
+}

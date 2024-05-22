@@ -1,0 +1,84 @@
+/* ------------------------------------------------------------------------------------------ */
+/* -- NAV -- */
+
+
+.Boxtitulo {
+  background: #fc842e;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.Titulo {
+  display: flex;
+  align-items: center;
+}
+
+.Logo {
+  position: relative;
+  right: 250px;
+  font-family: 'Young Serif', sans-serif;
+  font-size: 23px;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------ */
+
+
+/* -- CARRITO CON CONTADOR -- */
+
+.Carrito {
+  display: flex;
+  position: relative;
+  left: 250px;
+  font-size: 20px;
+  color: #ebebeb;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+
+
+/* ------------------------------------------------------------------------------------------ */
+
+.NavBox {
+  background: #fc842e;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-family: 'Young Serif', sans-serif;
+  font-size: 20px;
+}
+
+.textn{
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+  font-family: 'Young Serif', sans-serif;
+  font-size: 23px;
+}
+
+button {
+  font-family: 'Young Serif', sans-serif;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 15px;
+  padding: 0px 30px;
+
+}
+
+.textn:active {
+  color: rgb(221, 54, 54);
+}
+
+/* ------------------------------------------------------------------------------------------ */
